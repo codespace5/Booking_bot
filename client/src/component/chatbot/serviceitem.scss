@@ -1,0 +1,45 @@
+.serviceItem{
+    // width: 650px;
+    // height: 175px;
+    // padding: 15px;
+    // .mySwiper{
+    //     height: 200px;
+    //     width: 650px;
+    // }
+    // .swiper-horizontal{
+    //     width: 30%;
+    //     .swiper-pagination-bullets{
+    //         .swiper-pagination-bullets.swiper-pagination-horizontal{
+    //             width: 30%;
+    //         }
+    //     } 
+    // }
+    .swiper-slide {
+        width: 100%;
+        .slid-content{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+
+.swiper-slide {
+    width: 100%;
+    // background: #fff;
+    // text-align: center;
+    // font-size: 18px;
+    // line-height: 200px;
+    // box-sizing: border-box;
+    // border: 1px solid #ccc;
+    // .content{
+    //     display: flex;
+    //     flex-direction: column;
+    //     height: 160px;
+    // }
+    .slid-content{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+

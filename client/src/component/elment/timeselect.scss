@@ -1,0 +1,39 @@
+.timeselect{
+    .header{
+        padding: 10px;
+        .title{
+            color: #404040;
+            font-size: 20px;
+        }
+        .date{
+            color: #404040;
+            font-size: 14px;
+        }
+    }
+    .available-time{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .select-btn{
+            color: #5c90d2;
+            border-color: #5c90d2;
+            width: 250px;
+            height: 40px;
+
+        }
+        .select-btn:hover {
+            background-color: #3f51b5;
+            color: #fff;
+
+        }
+        .select-btn:focus {
+            background-color: #5c90d2;
+            
+            color: #fff;
+
+             /* Change background color when hovered or focused */
+        }
+    }
+}
